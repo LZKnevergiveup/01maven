@@ -12,5 +12,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2020-02-17
  */
 public interface ICustomerService extends IService<Customer> {
-
+    public void buy();
 }
